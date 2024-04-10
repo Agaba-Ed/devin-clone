@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1F1F1F;
+}
+
+.container {
+  display: flex;
+}
+.container .card {
+  border-radius: 5px;
+  background-color: #282828;
+  height: 94vh;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.container .sidebar {
+  width: 40px;
+  margin-left: 20px;
+}
+.container .prompt {
+  width: 48%;
+}
+.container .workspace {
+  width: 48%;
+  margin-right: 20px;
+}/*# sourceMappingURL=style.css.map */
