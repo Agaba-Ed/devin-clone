@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   background: #1F1F1F;
 }
 
@@ -20,7 +23,8 @@
   margin-left: 20px;
   flex-direction: column;
 }
-.container .sidebar .img, .container .sidebar i {
+.container .sidebar .img,
+.container .sidebar i {
   position: absolute;
 }
 .container .sidebar .img {
@@ -29,7 +33,6 @@
 .container .sidebar i {
   margin-left: 13px;
   color: #306E54;
-  background-color: #282828;
 }
 .container .sidebar .logo {
   width: 20px;
@@ -57,12 +60,24 @@
 .container .prompt {
   width: 48%;
 }
-.container .prompt h3 {
-  background-color: #282828;
+.container .prompt .prompt-header {
+  margin-top: 20px;
+  display: flex;
+  margin-right: 20px;
+}
+.container .prompt .prompt-header h3 {
   color: #FBFBFC;
   font-size: 16px;
-  margin-top: 20px;
   margin-left: 15px;
+  flex-grow: 2;
+}
+.container .prompt .prompt-header i {
+  color: #306E54;
+  width: 20px;
+  height: 20px;
+}
+.container .prompt .prompt-header .chart {
+  margin-right: 20px;
 }
 .container .workspace {
   width: 48%;

@@ -1,75 +1,102 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     background: #1F1F1F;
 }
 
-.container{
+.container {
     display: flex;
 
-    .card{
+    .card {
         border-radius: 5px;
         background-color: #282828;
         height: 94vh;
         margin-right: 15px;
         margin-top: 30px;
-        
+
     }
-    .sidebar{
+
+    .sidebar {
         width: 40px;
         margin-left: 20px;
         flex-direction: column;
-        .img,i{
+
+        .img,
+        i {
             position: absolute;
         }
-        .img{
+
+        .img {
             margin-left: 10px;
         }
-        i{
+
+        i {
             margin-left: 13px;
             color: #306E54;
-            background-color: #282828;
         }
-        .logo{
+
+        .logo {
             width: 20px;
-            height: 20px; 
+            height: 20px;
             border-radius: 50%;
             top: 50px;
         }
 
-        .menu{
+        .menu {
             top: 85px;
         }
 
-        .profile-pic{
+        .profile-pic {
             width: 20px;
             height: 20px;
             bottom: 125px;
         }
 
-        .settings{
+        .settings {
             bottom: 90px;
         }
 
-        .hint{
+        .hint {
             bottom: 55px;
         }
-        .help{
+
+        .help {
             bottom: 20px;
         }
     }
-    .prompt{
+
+    .prompt {
         width: 48%;
-        h3{
-            background-color: #282828;
-            color: #FBFBFC;
-            font-size: 16px;
+
+        .prompt-header {
             margin-top: 20px;
-            margin-left: 15px;
+            display: flex;
+            margin-right: 20px;
+            h3 {
+                color: #FBFBFC;
+                font-size: 16px;
+                margin-left: 15px;
+                flex-grow: 2;
+
+            }
+
+            i {
+                color: #306E54;
+                width: 20px;
+                height: 20px;
+            }
+            .chart{
+                margin-right: 20px;
+            }
+
         }
     }
-    .workspace{
+
+    .workspace {
         width: 48%;
         margin-right: 20px;
     }
