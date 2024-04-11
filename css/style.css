@@ -18,9 +18,51 @@
 .container .sidebar {
   width: 40px;
   margin-left: 20px;
+  flex-direction: column;
+}
+.container .sidebar .img, .container .sidebar i {
+  position: absolute;
+}
+.container .sidebar .img {
+  margin-left: 10px;
+}
+.container .sidebar i {
+  margin-left: 13px;
+  color: #306E54;
+  background-color: #282828;
+}
+.container .sidebar .logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 50px;
+}
+.container .sidebar .menu {
+  top: 85px;
+}
+.container .sidebar .profile-pic {
+  width: 20px;
+  height: 20px;
+  bottom: 125px;
+}
+.container .sidebar .settings {
+  bottom: 90px;
+}
+.container .sidebar .hint {
+  bottom: 55px;
+}
+.container .sidebar .help {
+  bottom: 20px;
 }
 .container .prompt {
   width: 48%;
+}
+.container .prompt h3 {
+  background-color: #282828;
+  color: #FBFBFC;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 .container .workspace {
   width: 48%;
