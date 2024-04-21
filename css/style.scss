@@ -76,6 +76,7 @@ body {
             margin-top: 20px;
             display: flex;
             margin-right: 20px;
+
             h3 {
                 color: #FBFBFC;
                 font-size: 16px;
@@ -89,10 +90,82 @@ body {
                 width: 20px;
                 height: 20px;
             }
-            .chart{
+
+            .chart {
                 margin-right: 20px;
             }
 
+        }
+
+
+        .prompt-chat-section {
+            .prompter-message {
+                margin-top: 30px;
+                margin-left: 20px;
+                display: flex;
+
+                .prompter_image {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 15px;
+                }
+
+                .prompt_section {
+
+                    .prompter_name {
+                        font-size: 14px;
+                        color: #E3E3E3;
+                    }
+
+                    .prompter_text {
+
+                        font-size: 14px;
+                        color: #9B9B9C;
+                    }
+
+                }
+
+
+
+            }
+            .line{
+                width: 3px;
+                height: 20px;
+                background: #FBFBFC;
+                display: inline-block;
+                margin-top: 170px;
+            }
+
+            #line-1{
+                margin-left: 15px;
+                
+            }
+
+            #line-2{
+                float: right;
+                margin-right: 15px;
+            }
+
+        }
+
+        .devin_waiting{
+            display: flex;
+            position: fixed;
+            bottom: 50px;
+            margin-left: 30px;
+            .devin_image{
+                width: 30px;
+                height: 30px;
+                background-color: #306E54;
+                border-radius: 50%;
+                margin-right: 15px;
+            }
+            .devin_waiting_message{
+                color: #6A6A6A;
+                font-style: italic;
+                font-size: 13px;
+                padding-top: 10px;
+            }
         }
     }
 
