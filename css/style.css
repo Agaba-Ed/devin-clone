@@ -114,12 +114,12 @@ body {
 .container .prompt .devin_waiting {
   display: flex;
   position: fixed;
-  bottom: 50px;
+  bottom: 100px;
   margin-left: 30px;
 }
 .container .prompt .devin_waiting .devin_image {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background-color: #306E54;
   border-radius: 50%;
   margin-right: 15px;
@@ -128,7 +128,36 @@ body {
   color: #6A6A6A;
   font-style: italic;
   font-size: 13px;
-  padding-top: 10px;
+  padding-top: 3px;
+}
+.container .prompt .write-prompt-section {
+  position: fixed;
+  bottom: 50px;
+  margin-left: 30px;
+  background-color: #333435;
+  width: 43%;
+  border-radius: 5px;
+}
+.container .prompt .write-prompt-section .prompt {
+  border-style: none;
+  background-color: #333435;
+  width: 90%;
+  padding: 7px 2px;
+}
+.container .prompt .write-prompt-section i {
+  color: #808080;
+}
+.container .prompt .write-prompt-section .prompt:focus {
+  outline: none;
+}
+.container .prompt .write-prompt-section .prompt::-moz-placeholder {
+  color: #808080;
+}
+.container .prompt .write-prompt-section .prompt::placeholder {
+  color: #808080;
+}
+.container .prompt .write-prompt-section .attach {
+  margin-left: 10px;
 }
 .container .workspace {
   width: 48%;
